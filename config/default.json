@@ -1,3 +1,10 @@
 {
-	"port": 9001
+	"port": 9001,
+	"authentication": {
+		"secret": "JWT_SECRET",
+		"google": {
+			"clientID": "CLIENT_ID",
+			"clientSecret": "CLIENT_SECRET"
+		}
+	}
 }
